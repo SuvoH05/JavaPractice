@@ -8,7 +8,7 @@ class Main {
         System.out.print("ENTER YOUR AGE: ");
         int age = input.nextInt();
         System.out.println(age);
-        
+        input.close();
         // int age=20;
         // double height=5.4;
         // char grade = 'A';
